@@ -1,0 +1,53 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+}
+
+.logo{
+  font-weight: 700;
+  color: orangered;
+}
+
+.links{
+  display: flex;
+  gap: 1rem;
+}
+
+.links a{
+  text-decoration: none;
+  color: inherit;
+  transform: 0.3s;
+}
+
+.links a:hover{
+  color: rgb(156, 214, 41);
+}
+
+button{
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+}
+
+div{
+  text-align: center;
+}
